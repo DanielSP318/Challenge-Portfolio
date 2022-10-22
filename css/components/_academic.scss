@@ -1,0 +1,54 @@
+@import '../abstratic/variables';
+
+.formacoes {
+    background: #EAF2FD;
+    padding: 2rem;
+}
+
+.formacoes__lista {
+    margin-top: 2rem;
+}
+
+.formacao__item {
+    color: $grey;
+}
+
+.formacao__logo {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.formacao__imagem {
+    width: 40%;
+    height: 40%;
+}
+
+.formacao__titulo {
+    margin: .5rem 0;
+}
+
+.formacao__status {
+    margin-bottom: 1rem;
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 768px) {    
+    .formacoes__lista {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .formacao__item {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacoes {
+        padding: 2rem 9.5rem;
+    }
+}

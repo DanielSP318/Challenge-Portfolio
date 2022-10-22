@@ -1,0 +1,64 @@
+@import '../abstratic/variables';
+
+.projeto__titulo {
+    color: $grey;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.projeto__descricao {
+    color: $grey;
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+.experiencia__item {
+    padding: 2rem 0;
+}
+
+.experiencia__imagem {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100%;
+}
+
+.botao {
+    border: 1px solid $light-blue;
+    color: $light-blue;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .75rem 1rem;
+    text-decoration: none;
+}
+
+.projeto__botao:last-child {
+    background-color: $light-blue;
+    color: #FFFFFF;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__item {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+    }
+
+    .experiencia__projeto {
+        margin-left: .3rem;
+    }
+
+    .experiencia__item:nth-child(2n) .experiencia__projeto {
+        margin-left: 0;
+        margin-right: .3rem;
+    }
+
+    .experiencia__item:nth-child(2n) img {
+        order: 2;
+    }
+
+    .experiencia__imagem {
+        width: 65%;
+    }
+}

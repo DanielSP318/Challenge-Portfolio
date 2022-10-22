@@ -1,0 +1,49 @@
+@import '../abstratic/variables';
+
+.cabecalho {
+  align-items: center;
+  background-color: $white;
+  color: $grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho__logo {
+  display: flex;
+}
+
+.cabecalho__texto {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.cabecalho__link {
+  color: inherit;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+}
+
+.cabecalho__link:nth-child(n + 1):nth-child(-n + 5) {
+  display: none;
+}
+
+.cabecalho__link:last-child {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho__link {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho__link:nth-child(n + 1):nth-child(-n + 5) {
+    display: initial;
+  }
+}
