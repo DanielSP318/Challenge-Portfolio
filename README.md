@@ -7,7 +7,7 @@
 
 - 🤝 Projeto coringa [arquitetura_rest_complet](https://github.com/DanielSP318/arquitetura_rest_complet)
 
-- 💬 Perguntas sobre o projeto? **Me chame no instagram: @Dacotinha_ ou no linkedin: linkedin.com/in/daniel-silva-pereira-2452941ab/**
+- 💬 Perguntas sobre o projeto? **Me chame no instagram: @Dacotinha_ ou no linkedin: linkedin.com/in/daniel-sp-fullstack/**
 
 - 📫 Me manda um e-mail caso não tenha instragram ou o linkedin **dsilvapereira318@gmail.com**
 
